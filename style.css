@@ -1,0 +1,139 @@
+body{
+    background-image: url("background.jpg");
+    font-family: 'Open Sans', sans-serif;
+}
+
+#wrapper{
+    background-color: #fff;
+    width: 960px;
+    padding: 15px;
+    margin: auto;
+    overflow: hidden;
+}
+
+#header {
+    background-color: #c51417;
+    overflow: hidden;
+}
+
+#logo  {
+    float: left;
+}
+
+#logo img {
+    padding: 15px;
+}
+
+#headtext {
+    float: right;
+}
+
+#headtext p{
+    padding: 5px;
+    color: #fff;
+    font-size: 22px;
+    margin: 0;
+    font-style: italic;
+}
+
+#nav {
+    margin-top: 10px;
+    background-color: #333333;
+    overflow: hidden;
+}
+
+#nav ul {
+    margin:0px;
+    padding: 0px;
+    list-style: none;
+}
+
+#nav ul li {
+    float: left;
+    margin: 0px;
+}
+
+#nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 12px;
+    display: block;
+    font-size: 15px;
+    margin: 5px;
+}
+
+#nav ul li a:link,
+#nav ul li a:visited {
+	color:#ffffff;
+}
+
+#nav ul li a:hover {
+	background-color:#C51417;
+}
+
+#nav ul li a:active {
+	color:#000000;
+}
+
+.social {
+    float: right;
+    padding:10px 12px 10px 0;
+}
+
+.social i{
+    font-size: 22px;
+    color: #fff;
+}
+
+.social i:hover{
+    background-color:#C51417;
+    cursor: pointer;
+}
+
+#main{
+    width:700px;
+    float: left;
+}
+
+#sidebar {
+    width: 240px;
+    float: right;
+    margin-bottom: 10px;
+}
+
+#sidebar h2{
+    background-color: #bbbbbb;
+    color: #fff;
+    padding: 4px;
+}
+
+#sidebar img{
+    margin-bottom: 8px;
+}
+
+
+#sidebar a:link,
+#sidebar a:visited {
+    color: #C51417;
+}
+
+#footer{
+    background-color: #333333;
+    clear: both;
+    text-align:center;
+	padding:5px;
+    font-size:10px;
+}
+
+#footer p{
+    color: #fff;   
+    margin: 0;
+}
+
+#inputForm input{
+    margin: 5px;
+}
+
+#inputForm button{
+    margin: 5px;
+}
